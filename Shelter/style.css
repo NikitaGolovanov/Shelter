@@ -282,6 +282,7 @@ h1 {
 
     background: #F1CDB3;
     border-radius: 100px;
+    cursor: pointer;
 }    
 .MakeAfriend {
     width: 117px;
@@ -307,6 +308,7 @@ h1 {
     flex: none;
     order: 0;
     flex-grow: 0;
+    cursor: pointer;
     }
 .make-but:hover {
     background: #FDDCC4;
@@ -594,10 +596,7 @@ h1 {
     height: 14px;
     transform: rotate(180deg);
 }
-.pets-but {
-    margin-top: 60px;
-    margin-left: 470px;
-}
+
 .but-pets {
     
     /* Auto layout */
@@ -607,6 +606,8 @@ h1 {
     align-items: center;
     padding: 15px 45px;
     gap: 10px;
+    margin-top: 60px;
+    margin-left: 470px;
 
    
     width: 261px;
@@ -777,8 +778,9 @@ h1 {
     margin-left: 30px;
     flex-direction: column;
     display: flex;
-    
+   
 }
+
 .h4 {
     width: 300px;
     height: 90px;
@@ -832,6 +834,7 @@ h1 {
     padding: 10px 15px;
     gap: 10px;
     margin-top: 20px;
+    transition: 0.5s;
 
 
     width: 355px;
@@ -841,19 +844,7 @@ h1 {
 
     background: #F1CDB3;
     border-radius: 9px;
-}
-.credircard { 
-    width: 30px;
-    height: 23px;
-    align-items: left;
-
-    /* color-dark-3xl */
-
-    background: #292929;
-}
-.numbers {
-    width: 284px;
-    height: 23px;
+   
     
 
     /* h4 */
@@ -872,7 +863,21 @@ h1 {
     /* color-dark-l */
 
     color: #545454;
+    cursor: pointer;
 }
+.donation-card:hover {
+    background: #FDDCC4;
+}
+.credircard { 
+    width: 30px;
+    height: 23px;
+    align-items: left;
+
+    /* color-dark-3xl */
+
+    background: #292929;
+}
+
 .warning {
     width: 380px;
     height: 72px;
@@ -1082,4 +1087,10 @@ h1 {
     width: 22px;
     height: 40px;
     position: absolute;
+}
+.logo{
+    position:absolute;
+    width: 184px;
+    height: 60px;
+    cursor: pointer;
 }
