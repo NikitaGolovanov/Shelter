@@ -1,0 +1,193 @@
+@media (max-width: 1279px) {
+
+.wrapper {
+    width: 708px;
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header {
+    height: 1165px;
+}
+.head-cont {
+    margin-left: 0px;
+}
+.nav {
+    margin-left: 81px;
+}
+.line-nav {
+    margin-left: 265px;
+    margin-top: 70px;
+}
+.begin-cont {
+    margin-top: 60px;
+    margin-left: 124px;
+    width: 73.73vw;
+}
+.offer {
+    word-wrap: break-word; 
+}
+.make-but {
+    margin-left: 126px;
+}
+.puppyIMG { 
+    position: absolute;
+    width: 569px;
+    height: 593px;
+    margin-left: 18.1vw;
+    margin-top: 572px;
+}
+.about {
+    height: 1048px;
+}
+.about-cont {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 18.1vw;
+    width: 55.99vw;
+}
+.aboutIMG {
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 26.563vw;
+}
+.pets {
+    height: 877px;
+}
+.pets-cont {
+    width: 708px;
+    height: 697px;
+    margin-top: 80px;
+}
+.slider {
+    width: 708px;
+}
+.h3 {
+    margin-left: 154px;
+}
+.but-arrow {
+    margin-right: 12px;
+}
+.pet-cont {
+    margin-right: 40px;
+}
+.pet-cont:nth-last-child(2) {
+    display: none;
+}
+.pet-cont:nth-last-child(3) {
+    margin-right: 12px;
+}
+.but-pets {
+    margin-top: 60px;
+    margin-left: 224px;
+}
+.help {
+    height: 779px;
+}
+.help-tittle {
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.table1 {
+    margin-top: 60px;
+    margin-left: 39px;
+    flex-wrap: wrap;
+}
+.item1 {
+    margin-right: 60px;
+    width: 170px;
+    height: 113px;
+}
+.item2 {
+    margin-right: 60px;
+    width: 170px;
+    height: 113px;
+}
+.item3 {
+    margin-right: 39px;
+    width: 170px;
+    height: 113px;
+}
+.item4 {
+    margin-top: 55px;
+    margin-right: 60px;
+    width: 170px;
+    height: 113px;
+}
+.item5 {
+    margin-top: 55px;
+    margin-right: 60px;
+    width: 170px;
+    height: 113px;
+}
+.table2 {
+    margin-left: 499px;
+    flex-wrap: wrap;
+    height: 113px;
+}
+.item6 {
+    width: 170px;
+    height: 113px;
+    margin-right: 39px;
+}
+.table3 {
+    margin-top: 55px;
+    margin-left: 39px;
+
+}
+.item7 {
+    width: 170px;
+    height: 113px;
+    margin-right: 60px;
+}
+.item8 {
+    width: 170px;
+    height: 113px;
+    margin-right: 60px;
+}
+.item9 {
+    width: 170px;
+    height: 113px;
+}
+.donation {
+    height: 783px;
+}
+
+.donation-cont {
+    margin-top: 80px;
+    margin-left: 164px;
+    height: 282px;
+    order: 1;
+}
+.sobaka {
+    margin-left: 101px;
+    order: 2;
+}
+.sobakaIMG {
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.footer {
+    height: 639px;
+}
+.foot-main {
+    margin-left: 32px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.footer-cont1 {
+    margin-top: 0px;
+}
+.footer-cont2 {
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.foot-dog {
+    margin-top: 65px;
+    margin-left: 170px;
+}
+}
+    

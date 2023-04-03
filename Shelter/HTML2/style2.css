@@ -185,9 +185,24 @@ button{
 
     color: #545454;
 }
-.nav>a:nth-child(2) {
-    text-decoration: underline;
-    
+.line-nav {
+    width: 58px;
+    height: 3px;
+    position: absolute;
+    margin-left: 906px;
+    margin-top: 70px;
+
+
+    /* color-primary */
+
+    background: #F1CDB3;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .main {
@@ -613,4 +628,7 @@ button{
     width: 184px;
     height: 60px;
     cursor: pointer;
+}
+.burger {
+    display: none;
 }
