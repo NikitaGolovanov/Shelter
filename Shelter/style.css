@@ -96,7 +96,9 @@ html{
 :where(dialog:modal) {
     all: revert;
 }
-
+.burger {
+    display: none;
+}    
 body {
     margin: 0px;
 }
@@ -124,12 +126,11 @@ button {
     height: 322px;
     display: inline-flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 253px;
 
 }
 .header {
     background: url(), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) , #211F20;
-    display: flex;
     height: 908px;
 }
 .header-cont {
@@ -209,10 +210,25 @@ button {
 
     color: #FAFAFA;
 }
-.nav>a:first-child {
-    text-decoration: underline;
-    
-}
+.line-nav {
+    width: 114px;
+    height: 3px;
+    position: absolute;
+    margin-left: 757px;
+    margin-top: 70px;
+
+    /* color-primary */
+
+    background: #F1CDB3;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
 .puppyIMG {
     position: absolute;
     width: 698px;
@@ -450,7 +466,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 19px 19px;
+    padding: 16px 16px;
 
     width: 52px;
     height: 52px;
@@ -465,7 +481,7 @@ h1 {
 }
 .arrow {
     width: 14px;
-    height: 14px;   
+    height: 6px;   
 }
 .petIMG {
     height: 270px;
@@ -576,10 +592,10 @@ h1 {
 
       /* Auto layout */
   
-      display: flex;
+    
       flex-direction: column;
       align-items: center;
-      padding: 19px 19px;
+      padding: 16px 16px;
   
       width: 52px;
       height: 52px;
@@ -593,8 +609,7 @@ h1 {
 }
 .arrow2 {
     width: 14px;
-    height: 14px;
-    transform: rotate(180deg);
+    height: 6px;
 }
 
 .but-pets {
@@ -742,6 +757,12 @@ h1 {
     height: 113px;
     margin-right: 120px;
 }
+.table3 {
+    height: 140.5px;
+    display: inline-flex;
+    margin-top: 27px;  
+
+}
 .item7 {
     width: 101px;
     height: 113px;
@@ -758,6 +779,8 @@ h1 {
 }
 .donation {
     height: 462px;
+
+    flex-direction: row;
     
 
     /* color-light-l */
@@ -765,7 +788,8 @@ h1 {
     background: #F6F6F6;
 }
 .sobaka {
-    min-width: 648px;
+    width: 648px;
+    order: 1;
 }
 .sobakaIMG {
     width: 505px;
@@ -774,6 +798,7 @@ h1 {
     margin-top: 91px;
 }
 .donation-cont {
+    order: 2;
     margin-top: 80px;
     margin-left: 30px;
     flex-direction: column;
@@ -819,7 +844,7 @@ h1 {
     line-height: 110%;
     /* identical to box height, or 17px */
 
-    display: flex;
+
     align-items: center;
     letter-spacing: 0.05em;
 
@@ -899,11 +924,10 @@ h1 {
     color: #B2B2B2;
 }
 .footer {
-    
     height: 350px;
     background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
 }
-    .foot-main {
+.foot-main {
     width: 1200px;
     height: 310px;
     margin-top: 40px;
