@@ -185,9 +185,24 @@ button{
 
     color: #545454;
 }
-.nav>a:nth-child(2) {
-    text-decoration: underline;
-    
+.line-nav {
+    width: 58px;
+    height: 3px;
+    position: absolute;
+    margin-left: 906px;
+    margin-top: 70px;
+
+
+    /* color-primary */
+
+    background: #F1CDB3;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .main {
@@ -613,4 +628,179 @@ button{
     width: 184px;
     height: 60px;
     cursor: pointer;
+}
+.burger {
+    display: none;
+}
+.pop {
+    width: 900px;
+    height: 500px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    color: black;
+    margin-top: -255px;
+    margin-left: -455px;
+    transition: 0.3s;
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+}
+.popFADE{
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 60%;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    visibility: hidden;
+}
+.popIMG {
+    border-radius: 9px 0px 0px 9px;
+}
+.popNAME {
+    
+    width: 145px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 30px;
+
+    /* h3 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+.popDOG {
+    
+    height: 23px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+    /* h4 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+
+}
+.popBIO {
+    width: 350px;
+    height: 102px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* or 17px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+.popAGE {
+    margin-top: 40px;
+    margin-left: 44px;
+
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+.popINFO {
+    margin-top: 11px;
+    margin-left: 44px;
+
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+
+}
+.popDIS {
+    margin-top: 11px;
+    margin-left: 44px;
+
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+
+}
+.popPAR {
+    margin-top: 11px;
+    margin-left: 44px;
+
+    /* h5 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+.pop.UP {
+    visibility: visible;
+}
+.popFADE.UP {
+    visibility: visible;
+}
+.popCLOSE.UP {
+    visibility: visible;
+}
+body.active {
+    overflow: hidden;
 }

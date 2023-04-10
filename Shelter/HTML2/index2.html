@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="adaptive2.css">
+    <link rel="stylesheet" href="mobile2.css">
     <link rel="shortcut icon" href="../assets/1643605025_11-papik-pro-p-sobaka-logotip-11.png" type="image/x-icon">
     <title>Shelter</title>
 </head>
@@ -17,16 +19,40 @@
                         <p class="subtittle">Shelter for pets in Boston</p>
                     </div>
                     <a href="../index.html" class="logo"></a>      
-                <nav class="nav">
+                <nav class="nav" id="nav">
                     <a href="../index.html#about">About the shelter</a>
                     <a href="#">Our pets</a>
                     <a href="../index.html#Help">Help the shelter</a>
                     <a href="#footer">Contacts</a>
                 </nav>
-            </div>    
+            </div>
+            <span class="line-nav"></span>
+            <div class="burger" id="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="burger_menu" id="b-menu"></div>
+            <div class="fade_menu" id="f-menu"></div>      
         </div>
     </header>
     <main class="main">
+        <div class="popFADE" id="popFADE"></div>
+        <div class="popCLOSE" id="popCLOSE"></div>
+        <div class="pop" id="pop">
+            <img src="./assets/pets-freddie.svg" alt="pop" class="popIMG" id="popIMG">
+            <div class="popTEXT">
+                <p class="popNAME" id="popNAME">Freddie</p>
+                <p class="popDOG" id="popDOG">Cat - British Shorthair</p>
+                <p class="popBIO" id="popBIO">Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.</p>
+                <div>
+                    <p class="popAGE" id="popAGE">Age: 2 months</p>
+                    <p class="popINFO" id="popINFO">Inoculations: rabies</p>
+                    <p class="popDIS" id="popDIS">Diseases: none</p>
+                    <p class="popPAR" id="popPAR">Parasites: none</p>
+                </div>
+            </div>
+        </div>  
         <div class="wrapper">
             <div class="ourpets">
                 <div class="h1">
@@ -50,7 +76,7 @@
                             <button class="learnmore">Learn more</button>
                         </div>
                         <div class="pet-cont">
-                            <img src="../assets/pets-katrine (1).svg" alt="katrine" class="petIMG">
+                            <img src="../assets/pets-sophia.svg" alt="katrine" class="petIMG">
                             <p class="petNAME">Sophia</p>
                             <button class="learnmore">Learn more</button>
                         </div>
@@ -72,18 +98,18 @@
                             <button class="learnmore">Learn more</button>
                         </div>
                         <div class="pet-cont">
-                            <img src="../assets/pets-katrine (2).svg" alt="katrine" class="petIMG">
+                            <img src="../assets/pets-freddie.svg" alt="katrine" class="petIMG">
                             <p class="petNAME">Freddie</p>
                             <button class="learnmore">Learn more</button>
                         </div>
                     </div>    
                 </div>
                 <div class="navigation">
-                    <button class="but1"><<</button>
-                    <button class="but2"><</button>
-                    <div class="number">1</div>
-                    <button class="but3">></button>
-                    <button class="but4">>></button>
+                    <button class="but1" id="but1">&#60;&#60;</button>
+                    <button class="but2" id="but2">&#60;</button>
+                    <div class="number" id="number">1</div>
+                    <button class="but3" id="but3">></button>
+                    <button class="but4" id="but4">>></button>
                 </div>
             </div>
         </div>
@@ -95,7 +121,7 @@
                     <p class="h5">For questions and suggestions</p>
                     <div class="mail">
                         <img src="../assets/icon-email.svg" alt="mail" class="mailIMG">
-                        <a href="mailto: email@shelter.com" class="link1"></a>
+                        <a href="mailto:email@shelter.com" class="link1"></a>
                         <p class="mailText">email@shelter.com</p>
                     </div>
                     <div class="tel">
@@ -122,4 +148,5 @@
         </div>
     </footer>
 </body>
+<script type="module" src="./pets.js"></script>
 </html>
